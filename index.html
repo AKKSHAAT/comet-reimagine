@@ -8,26 +8,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="cursor-dot bg-amber-500" data-cursor-dot></div>
+
     <nav class="bg-amber-300 h-12 rounded-lg mx-3 my-2 pt-3">
       <img src="./img/logo.svg" alt="logo" class="w-16 mx-3" />
     </nav>
+    <!-- ----------------------------First----Section------------------------- -->
     <section
       class="bg-amber-50 overflow-hidden mx-3 rounded-md border-2 border-amber-300"
     >
-      <h1 class="text-8xl font-bold relative top-10 left-2">
+      <h1
+        data-position="0.01"
+        class="text-8xl font-bold relative top-10 BAS mx-24"
+      >
         GOOD SHOES TAKE YOU TO GOOD PLACES
       </h1>
       <img
-        class="relative bottom-20 left-60 "
+        data-position="0.03"
+        class="relative z-20 inline bottom-20 left-80 BAS"
         src="./img/shoe.png"
         alt="big ass shoe"
       />
+      <img
+        data-position="0.05"
+        class="relative z-10 BAS w-1/3 inline left-24 -top-28"
+        src="./img/shoe_2.png"
+        alt="big ass shoe"
+      />
     </section>
-    
-    <section
-    class="bg-black overflow-hidden mx-3 my-2 rounded-md "
-    >
-    
-    </section>
+
+    <section class="bg-black overflow-hidden mx-3 my-2 rounded-md"></section>
+
+    <script src="animation.js"></script>
   </body>
 </html>
