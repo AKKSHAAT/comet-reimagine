@@ -18,3 +18,5 @@ window.addEventListener("mousemove", (e) => {
   cursorDot.style.left = `${x}px`;
   cursorDot.style.top = `${y}px`;
 });
+
+document.querySelector("video").playbackRate = 0.5;
