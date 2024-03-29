@@ -6,7 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+.background {
+  z-index: -10;
   position: fixed;
   top: 0;
   left: 0;
@@ -15,6 +16,7 @@ body {
   background-image: url("./img/background.png");
   background-size: cover;
   animation: pan 10s linear infinite;
+  /* animation: xAxis 15s  linear infinite; */
 }
 
 @keyframes pan {
